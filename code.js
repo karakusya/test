@@ -1,16 +1,13 @@
-import Swiper from 'swiper';
-
-const swiper = new Swiper('.hero__slider', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-  
-
-    // Navigation arrows
+(() => {
+   let swiper = new Swiper(".hero__swiper", {
+    spaceBetween: 10,
     navigation: {
-      nextEl: '.slider__btn-next',
-      prevEl: '.slider__btn-prev',
+      nextEl: ".swiper__btn-next",
+      prevEl: ".swiper__btn-prev",
     },
-  
-   
-  });
+    thumbs: {
+      swiper: swiper,
+    },
+   });
+
+  })();
