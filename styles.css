@@ -1,0 +1,51 @@
+.hero {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    gap: 138px;
+}
+
+.bludo {
+
+    width: 528px;
+    height: 528px;
+}
+.slider__item {
+
+}
+.hero__title {
+    margin-bottom: 28px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+width: 100%;
+color: #2C2C2C;
+}
+
+.hero__content {
+    width: 502px;
+}
+
+.hero__text {
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+width: 100%;
+color: #2C2C2C;
+}
+.hero__img {
+    background: #FEFEFE;
+/* Yellow main */
+border-radius: 50%;
+width: 580px;
+height: 580px;
+border: 26px solid #FFE550;
+display: flex;
+align-items: center;
+justify-content: center;
+}
